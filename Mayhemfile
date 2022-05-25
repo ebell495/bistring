@@ -1,0 +1,10 @@
+project: bistring
+target: bistring
+image: ghcr.io/ebell495/bistring:latest
+duration: 300
+
+tests: null
+
+cmds:
+    - cmd: fuzz/fuzz.py
+      libfuzzer: true
