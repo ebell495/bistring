@@ -1,8 +1,6 @@
 project: bistring
-target: fuzz
-
-tests: null
+target: fuzz_normalizer
 
 cmds:
-    - cmd: fuzz/fuzz.py
+    - cmd: fuzz/fuzz_normalizer.py
       libfuzzer: true
